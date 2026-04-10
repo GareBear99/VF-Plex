@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VocalForge PersonaPlex Lab Tester</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <h1>VocalForge PersonaPlex Lab</h1>
+      <p>Browser tester for prompt iteration, voice selection, and job polling.</p>
+    </header>
+
+    <section class="card form-card">
+      <label>Prompt</label>
+      <textarea id="promptText">You enjoy having a good conversation.</textarea>
+
+      <div class="grid">
+        <div>
+          <label>Voice</label>
+          <select id="voiceId"></select>
+        </div>
+        <div>
+          <label>Seed</label>
+          <input id="seed" type="number" value="42424242" />
+        </div>
+        <div>
+          <label>Seconds</label>
+          <input id="targetSeconds" type="number" step="0.25" value="3.0" />
+        </div>
+        <div>
+          <label>Category</label>
+          <input id="category" value="spoken_hooks" />
+        </div>
+      </div>
+
+      <label>Style tags (comma separated)</label>
+      <input id="styleTags" value="dark,robotic" />
+
+      <button id="generateBtn">Queue generation</button>
+      <p id="statusLine"></p>
+    </section>
+
+    <section class="card">
+      <h2>Jobs</h2>
+      <div id="jobs"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

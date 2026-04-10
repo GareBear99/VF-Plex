@@ -1,0 +1,50 @@
+[
+  {
+    "id": "NATF0",
+    "type": "natural_female"
+  },
+  {
+    "id": "NATF1",
+    "type": "natural_female"
+  },
+  {
+    "id": "NATF2",
+    "type": "natural_female"
+  },
+  {
+    "id": "NATF3",
+    "type": "natural_female"
+  },
+  {
+    "id": "NATM0",
+    "type": "natural_male"
+  },
+  {
+    "id": "NATM1",
+    "type": "natural_male"
+  },
+  {
+    "id": "NATM2",
+    "type": "natural_male"
+  },
+  {
+    "id": "NATM3",
+    "type": "natural_male"
+  },
+  {
+    "id": "VARF0",
+    "type": "variety_female"
+  },
+  {
+    "id": "VARF1",
+    "type": "variety_female"
+  },
+  {
+    "id": "VARM0",
+    "type": "variety_male"
+  },
+  {
+    "id": "VARM2",
+    "type": "variety_male"
+  }
+]

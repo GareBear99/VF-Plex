@@ -1,0 +1,4 @@
+category,prompt_text,voice_id,seed,target_seconds,style_tags
+spoken_hooks,You enjoy having a good conversation.,NATF2,42424242,3.0,"dark,robotic"
+whispers,Tell me what you saw in the dark.,VARF1,42424299,2.5,"whisper,cinematic"
+service_lines,You work for a mysterious night service and answer calmly.,NATM1,11111111,4.0,"service,noir"

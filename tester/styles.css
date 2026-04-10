@@ -1,0 +1,45 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, Arial, sans-serif;
+}
+body {
+  margin: 0;
+  background: #0b0d12;
+  color: #edf1f7;
+}
+.shell {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px;
+}
+.card {
+  background: #141925;
+  border: 1px solid #222938;
+  border-radius: 18px;
+  padding: 18px;
+  margin-bottom: 18px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+label { display:block; margin: 10px 0 6px; font-weight: 600; }
+textarea, input, select, button {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: 1px solid #2f3749;
+  background: #0f1320;
+  color: #edf1f7;
+  padding: 10px 12px;
+}
+textarea { min-height: 140px; }
+button { cursor: pointer; font-weight: 700; margin-top: 14px; }
+.job {
+  border: 1px solid #2b3142;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+.small { opacity: 0.85; font-size: 0.92rem; }

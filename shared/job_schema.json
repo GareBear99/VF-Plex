@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VocalForge generation job",
+  "type": "object",
+  "required": [
+    "prompt_text",
+    "voice_id",
+    "seed",
+    "target_seconds",
+    "category",
+    "output_dir"
+  ],
+  "properties": {
+    "prompt_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "voice_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "seed": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "target_seconds": {
+      "type": "number",
+      "minimum": 0.25,
+      "maximum": 30.0
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "output_dir": {
+      "type": "string",
+      "minLength": 1
+    },
+    "style_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
